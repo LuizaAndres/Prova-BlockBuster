@@ -37,5 +37,6 @@ namespace ClasseLocacao{
 
             return valor;
         }
+        
     }
 }

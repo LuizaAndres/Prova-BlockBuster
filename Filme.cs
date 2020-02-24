@@ -21,7 +21,7 @@ namespace ClasseFilme{
             this.valor = valor;
             this.estoque = estoque;
         }
-
+//quantas vezes foi alugado
         public int qtdLocacoes(){
             return this.locacoes.Count;
         }
