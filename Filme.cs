@@ -4,7 +4,7 @@ using ClasseLocacao;
 
 namespace ClasseFilme{
     public class Filme {
-//construtor genérico        
+       
         public String id;
         public String nome;
         public String anoLancamento;
@@ -21,8 +21,8 @@ namespace ClasseFilme{
             this.valor = valor;
             this.estoque = estoque;
         }
-//quantas vezes foi alugado
-        public int qtdLocacoes(){
+
+        public int retornaLocacoes(){
             return this.locacoes.Count;
         }
     }
